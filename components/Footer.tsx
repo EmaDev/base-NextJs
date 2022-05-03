@@ -15,7 +15,7 @@ export const Footer = () => {
 
   return (
     <div style={{...container, backgroundColor: themePalette.bgSecondary}}>
-        <p style={{color: '#e1e1e1', fontWeight: 'bold'}}>{`Todos los derechos reservados ${year.getFullYear()}©`}</p>
+        <p style={{color: '#e1e1e1', fontWeight: 'bold'}}>{` Todos los derechos reservados ${year.getFullYear()}©`}</p>
     </div>
   )
 }
